@@ -26,5 +26,17 @@ var PERIODICALS_RESOURCES = [
       "This article from the classroom science magazine <em>Current Science</em> tells the story of Judy, a trained rat who helped wire California schools for the internet during the 1990s. Small enough to squeeze through walls and crawlspaces, Judy carried cabling string through the shortest route between rooms, saving workers from having to cut through walls by hand.",
       "It&rsquo;s a fun, factual example of a \"working rat\" - proof that, with the right training, rats can be put to genuinely useful jobs that play to their natural size, agility, and intelligence. This resource provides a brief overview of the concept of working rats and how they have been trained to do work even before this millennium."
     ]
+  },
+  {
+    "title": "Giant Rats Could Help Sniff out Wildlife Poachers",
+    "citation": "Hartley, Sophie. &ldquo;Giant Rats Could Help Sniff out Wildlife Poachers.&rdquo; <em>Science News Explores</em>, vol. 4, no. 4, Apr. 2025, p. 6. EBSCOhost, research.ebsco.com/plink/c8b802ed-5a9d-3449-af3a-34bba7eb08f9.",
+    "topic": "Working Rats",
+    "image": "images/periodical3.png",
+    "imageAlt": "picture of Giant Rats Could Help Sniff out Wildlife Poachers",
+    "caption": "Trained rats used at ports to detect smuggled wildlife products like rhino horn and elephant ivory",
+    "annotation": [
+      "This magazine article covers another use for working rats: protecting at-risk species by detecting smuggled goods such as rhinoceros horns and elephant tusks. These well-trained rats are being used at ports so illegal goods can be detected before they are sold.",
+      "This is a recent article and is valuable to our guide because it builds on the concept of working rats already established. It also features brief quotes from research scientists, including one who worked with APOPO&rsquo;s HeroRATs, giving readers a current, real-world example of rats being trained for conservation work."
+    ]
   }
 ];
