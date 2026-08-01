@@ -32,7 +32,7 @@ var PERIODICALS_RESOURCES = [
     "citation": "Hartley, Sophie. &ldquo;Giant Rats Could Help Sniff out Wildlife Poachers.&rdquo; <em>Science News Explores</em>, vol. 4, no. 4, Apr. 2025, p. 6. EBSCOhost, research.ebsco.com/plink/c8b802ed-5a9d-3449-af3a-34bba7eb08f9.",
     "topic": "Working Rats",
     "image": "images/periodical3.png",
-    "imageAlt": "picture of Giant Rats Could Help Sniff out Wildlife Poachers",
+    "imageAlt": "picture from article",
     "caption": "Trained rats used at ports to detect smuggled wildlife products like rhino horn and elephant ivory",
     "annotation": [
       "This magazine article covers another use for working rats: protecting at-risk species by detecting smuggled goods such as rhinoceros horns and elephant tusks. These well-trained rats are being used at ports so illegal goods can be detected before they are sold.",
