@@ -14,5 +14,17 @@ var NEWSPAPER_RESOURCES = [
       "Published in the Christian Science Monitor, this newspaper story recounts a family's experience taking in a pet rat that was only ever supposed to be a short-term guest. Its title hints at a story familiar to a lot of pet owners: the \"temporary\" animal guest ends up winning everyone over and staying for good.",
       "Unlike the care manuals and research-based resources elsewhere in this collection, this piece offers something different: a lighthearted, first-person account of what it's actually like to live with a pet rat day to day. It was specifically chosen for its humour that makes our collection more well-rounded. Its first-person narrative can make prospective rat owners more excited about owning pet rats."
     ]
+  },
+  {
+    "title": "Some People Think Rats Are the Perfect Pet, for Fun and Comfort",
+    "citation": "Washington Post. &ldquo;Some People Think Rats Are the Perfect Pet, for Fun and Comfort.&rdquo; <em>Gulf News</em>, 7 Oct. 2019, gulfnews.com/world/americas/some-people-think-rats-are-the-perfect-pet-for-fun-and-comfort-1.1570440676090.",
+    "topic": "News Features",
+    "image": "images/newspaper2.jpg",
+    "imageAlt": "picture of Some People Think Rats Are the Perfect Pet, for Fun and Comfort",
+    "caption": "A newspaper feature exploring why rat owners find the pets so rewarding, despite common misconceptions",
+    "annotation": [
+      "This article profiles several pet rat owners, including a college student who credits her rats with helping her through anxiety and depression, and a mother who raises dozens of rats with her daughters as part of their recovery from domestic abuse. It also includes expert commentary from an exotic pet veterinarian and a neurobiologist, covering topics like breed differences, common health risks, and the traits that make rats stand out among small pets.",
+      "This piece was chosen for its balance of personal stories and expert insight. It counters the common stereotype of rats as dirty or unlikable pests by showing readers real examples of the bond rat owners form with their animals."
+    ]
   }
 ];
