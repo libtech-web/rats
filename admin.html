@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resource Manager - Pet Rats & Working Rats</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+<div class="page">
+
+  <div class="admin-header">
+    <h1>Resource Manager</h1>
+    <p>Add, edit, or remove resources for Books, Journal Articles, Newspaper Articles, Periodicals, Videos, and Websites. Nothing saves automatically &mdash; export the data file when you're done and drop it into the <code>data</code> folder.</p>
+    <a href="index.html">&larr; Back to site</a>
+  </div>
+
+  <div class="admin-layout">
+
+    <aside class="admin-sidebar">
+
+      <div class="category-tabs" id="category-tabs">
+        <button type="button" class="cat-tab active" data-cat="books">Books</button>
+        <button type="button" class="cat-tab" data-cat="articles">Journal Articles</button>
+        <button type="button" class="cat-tab" data-cat="newspaper">Newspaper Articles</button>
+        <button type="button" class="cat-tab" data-cat="periodicals">Periodicals</button>
+        <button type="button" class="cat-tab" data-cat="videos">Videos</button>
+        <button type="button" class="cat-tab" data-cat="websites">Websites</button>
+      </div>
+
+      <button type="button" id="add-new-btn" class="admin-btn primary">+ Add New Resource</button>
+
+      <ul class="entry-list" id="entry-list"></ul>
+
+      <div class="admin-actions">
+        <button type="button" id="export-btn" class="admin-btn">Export data file</button>
+        <label class="admin-btn file-label">
+          Import data file
+          <input type="file" id="import-input" accept=".js" hidden>
+        </label>
+        <button type="button" id="reset-btn" class="admin-btn danger">Reset to original</button>
+      </div>
+
+      <p class="admin-note">
+        Export downloads a file like <code>books-data.js</code>. Replace the matching file in
+        your project's <code>data</code> folder to publish the change to the live pages.
+      </p>
+
+    </aside>
+
+    <main class="admin-form-panel">
+      <form id="entry-form">
+
+        <label for="f-title">Title
+          <input type="text" id="f-title" required>
+        </label>
+
+        <label for="f-citation">MLA Citation <span style="font-weight:400; text-transform:none; letter-spacing:normal;">(HTML like &lt;em&gt;&hellip;&lt;/em&gt; is allowed)</span>
+          <textarea id="f-citation" rows="3" required></textarea>
+        </label>
+
+        <label for="f-topic">Topic
+          <input type="text" id="f-topic" required>
+        </label>
+
+        <label for="f-image">Image path or URL
+          <input type="text" id="f-image" required>
+        </label>
+
+        <label for="f-alt">Image alt text
+          <input type="text" id="f-alt" required>
+        </label>
+
+        <label for="f-caption">Image caption
+          <input type="text" id="f-caption" required>
+        </label>
+
+        <div>
+          <label style="margin-bottom:0.5rem;">Annotation paragraphs</label>
+          <div id="paragraph-list"></div>
+          <button type="button" id="add-paragraph-btn" class="admin-btn small">+ Add paragraph</button>
+        </div>
+
+        <div class="form-buttons">
+          <button type="submit" class="admin-btn primary">Save Entry</button>
+          <button type="button" id="cancel-btn" class="admin-btn">Cancel</button>
+        </div>
+
+      </form>
+    </main>
+
+    <section class="admin-preview">
+      <h2>Live Preview</h2>
+      <div id="preview-container"></div>
+    </section>
+
+  </div>
+
+</div>
+
+<script src="data/books-data.js"></script>
+<script src="data/articles-data.js"></script>
+<script src="data/newspaper-data.js"></script>
+<script src="data/periodicals-data.js"></script>
+<script src="data/videos-data.js"></script>
+<script src="data/websites-data.js"></script>
+<script src="resource-render.js"></script>
+<script src="admin.js"></script>
+
+</body>
+</html>

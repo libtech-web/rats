@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Periodicals - Pet Rats & Working Rats</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="page">
+
+  <div class="hero">
+    <img src="header.jpg" alt="A grey-and-white pet rat perched on upholstered fabric, with a second rat's head visible in the foreground">
+    <div class="hero-title">
+      <span class="eyebrow">Whiskers &middot; Claws &middot; Character</span>
+      <h1>Getting to Know Rats</h1>
+      <p class="sub">A learning guide on pet rats, rat behaviour and working rats</p>
+    </div>
+  </div>
+
+  <nav class="nav" aria-label="Primary">
+    <a href="index.html">Home</a>
+    <a href="categories.html" class="current">Resources</a>
+    <a href="search.html">Search Strategies</a>
+    <a href="credits.html">Credits</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+
+  <div class="scratch-divider" aria-hidden="true">
+    <span></span><span></span><span></span><span></span>
+  </div>
+
+  <main class="content">
+
+    <h1 class="page-title">Periodicals</h1>
+
+    <div id="resource-list">
+      <p style="color:var(--peach); text-align:center;">Loading resources&hellip;</p>
+    </div>
+
+  </main>
+
+  <footer>
+    &copy; 2026 <a href="contact.html">Marie-Michele Chezzi</a> &amp; <a href="contact.html">Michelle Wilson</a> 🐀
+  </footer>
+
+</div>
+
+  <script src="data/periodicals-data.js"></script>
+  <script src="resource-render.js"></script>
+  <script>
+    try {
+      if (typeof PERIODICALS_RESOURCES === "undefined") {
+        throw new Error("PERIODICALS_RESOURCES was not found. Make sure the data folder sits next to this page, and that you are viewing this site through a local web server rather than double-clicking the file, since many browsers block local scripts from file:// pages.");
+      }
+      if (typeof renderResourceList === "undefined") {
+        throw new Error("renderResourceList was not found. resource-render.js did not load.");
+      }
+      renderResourceList("resource-list", PERIODICALS_RESOURCES);
+    } catch (err) {
+      document.getElementById("resource-list").innerHTML =
+        '<p style="color:var(--peach); text-align:center; max-width:60ch; margin:0 auto;">' +
+        'Could not load resources: ' + err.message +
+        '</p>';
+      console.error(err);
+    }
+  </script>
+
+</body>
+</html>
