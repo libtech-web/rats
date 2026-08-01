@@ -19,7 +19,7 @@ var NEWSPAPER_RESOURCES = [
     "title": "Some People Think Rats Are the Perfect Pet, for Fun and Comfort",
     "citation": "Washington Post. &ldquo;Some People Think Rats Are the Perfect Pet, for Fun and Comfort.&rdquo; <em>Gulf News</em>, 7 Oct. 2019, gulfnews.com/world/americas/some-people-think-rats-are-the-perfect-pet-for-fun-and-comfort-1.1570440676090.",
     "topic": "News Features",
-    "image": "images/newspaper2.jpg",
+    "image": "images/newspaper2.png",
     "imageAlt": "picture of Some People Think Rats Are the Perfect Pet, for Fun and Comfort",
     "caption": "A newspaper feature exploring why rat owners find the pets so rewarding, despite common misconceptions",
     "annotation": [
