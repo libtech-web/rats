@@ -35,8 +35,8 @@ var BOOKS_RESOURCES = [
     "imageAlt": "picture of Rats: Everything About Purchase, Care, Nutrition, Handling, and Behavior",
     "caption": "A full-colour, beginner-friendly manual covering every stage of rat ownership",
     "annotation": [
-      "Part of Barron's long-running Complete Pet Owner's Manual series, this book covers the full range of pet rat care: acquiring a rat, housing, nutrition, health care, training, and understanding behaviour and body language. It's written primarily for prospective or first-time owners, as well as older children learning about responsible pet care, and is illustrated throughout with colour photos.",
-      "Co-authored by a veterinarian (Sharon Vanderlip) alongside experienced pet-book writer Carol Himsel Daly, it's a thorough reference to keep on hand for the practical basics. It's easy to look up and reference information, in comparison to the research-driven or longer video resources elsewhere in this collection. Therefore, it offers good balance to our collection."
+      "Part of the Complete Pet Owner's Manual series, this book covers the full range of pet rat care: acquiring a rat, housing, nutrition, health care, training, and understanding behaviour. It's written primarily for prospective or first-time owners, as well as older children learning about responsible pet care, and is illustrated throughout with colour photos.",
+      "Co-authored by a veterinarian (Sharon Vanderlip) alongside an experienced pet-book writer, Carol Himsel Daly, it's a thorough reference to keep on hand for the practical basics. It's easy to look up and reference information, in comparison to the research-driven or longer video resources elsewhere in this collection. Therefore, it offers good balance to our collection."
     ]
   },
   {
