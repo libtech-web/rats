@@ -24,7 +24,7 @@ var PERIODICALS_RESOURCES = [
     "caption": "Judy the rat, trained to pull network cable through school walls during NetDay",
     "annotation": [
       "This article from the classroom science magazine <em>Current Science</em> tells the story of Judy, a trained rat who helped wire California schools for the internet during the 1990s. Small enough to squeeze through walls and crawlspaces, Judy carried cabling string through the shortest route between rooms, saving workers from having to cut through walls by hand.",
-      "It&rsquo;s a fun, factual example of a \"working rat\" - proof that, with the right training, rats can be put to genuinely useful jobs that play to their natural size, agility, and intelligence. This resource provides a brief overview of the concept of working rats and how they have been trained to do work even before this millennium."
+      "It&rsquo;s a fun, factual example of a \"working rat\". It helps prove that, with the right training, rats can be put to genuinely useful jobs that play to their natural size and intelligence. This resource provides a brief overview of the concept of working rats and how they have been trained to do work even before this millennium."
     ]
   },
   {
@@ -35,8 +35,8 @@ var PERIODICALS_RESOURCES = [
     "imageAlt": "picture from article",
     "caption": "Trained rats used at ports to detect smuggled wildlife products like rhino horn and elephant ivory",
     "annotation": [
-      "This magazine article covers another use for working rats: protecting at-risk species by detecting smuggled goods such as rhinoceros horns and elephant tusks. These well-trained rats are being used at ports so illegal goods can be detected before they are sold.",
-      "This is a recent article and is valuable to our guide because it builds on the concept of working rats already established. It also features brief quotes from research scientists, including one who worked with APOPO&rsquo;s HeroRATs, giving readers a current, real-world example of rats being trained for conservation work."
+      "This magazine article covers another use for working rats: protecting at-risk species by detecting smuggled goods such as rhinoceros horns and elephant ivory. These well-trained rats are being used at ports so illegal goods can be detected before they are sold.",
+      "This is a recent article and is valuable to our guide because it strengthens the concepts of working rats we have already established. It features quotes from research scientists, including a scientist who worked with APOPO&rsquo;s HeroRATs, giving readers a current, real-world example of rats being trained for conservation work."
     ]
   }
 ];
